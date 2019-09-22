@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AD63A34A-FEAC-4EC1-A12D-13ABD31ED52B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DestaoDeFrotaEntrada.PL</RootNamespace>
+    <AssemblyName>DestaoDeFrotaEntrada.PL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormClienteAvisos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClienteAvisos.Designer.cs">
+      <DependentUpon>FormClienteAvisos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClienteMotorista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClienteMotorista.Designer.cs">
+      <DependentUpon>FormClienteMotorista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClienteRelatorioGeral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClienteRelatorioGeral.Designer.cs">
+      <DependentUpon>FormClienteRelatorioGeral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClienteRelatorioMultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClienteRelatorioMultas.Designer.cs">
+      <DependentUpon>FormClienteRelatorioMultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClienteRelatorioPneus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClienteRelatorioPneus.Designer.cs">
+      <DependentUpon>FormClienteRelatorioPneus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClienteRelatorioViagens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClienteRelatorioViagens.Designer.cs">
+      <DependentUpon>FormClienteRelatorioViagens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClienteRelatrioPeças.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClienteRelatrioPeças.Designer.cs">
+      <DependentUpon>FormClienteRelatrioPeças.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClienteViagens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClienteViagens.Designer.cs">
+      <DependentUpon>FormClienteViagens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClienteVP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClienteVP.Designer.cs">
+      <DependentUpon>FormClienteVP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFuncionarioCadMotorista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFuncionarioCadMotorista.Designer.cs">
+      <DependentUpon>FormFuncionarioCadMotorista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoginCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoginCliente.Designer.cs">
+      <DependentUpon>FormLoginCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoginEmpregado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoginEmpregado.Designer.cs">
+      <DependentUpon>FormLoginEmpregado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPaginaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPaginaInicial.Designer.cs">
+      <DependentUpon>FormPaginaInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPgInicialCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPgInicialCliente.Designer.cs">
+      <DependentUpon>FormPgInicialCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPgInicialEmpregado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPgInicialEmpregado.Designer.cs">
+      <DependentUpon>FormPgInicialEmpregado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVeiculoVL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVeiculoVL.Designer.cs">
+      <DependentUpon>FormVeiculoVL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormClienteAvisos.resx">
+      <DependentUpon>FormClienteAvisos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClienteMotorista.resx">
+      <DependentUpon>FormClienteMotorista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClienteRelatorioGeral.resx">
+      <DependentUpon>FormClienteRelatorioGeral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClienteRelatorioMultas.resx">
+      <DependentUpon>FormClienteRelatorioMultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClienteRelatorioPneus.resx">
+      <DependentUpon>FormClienteRelatorioPneus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClienteRelatorioViagens.resx">
+      <DependentUpon>FormClienteRelatorioViagens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClienteRelatrioPeças.resx">
+      <DependentUpon>FormClienteRelatrioPeças.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClienteViagens.resx">
+      <DependentUpon>FormClienteViagens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClienteVP.resx">
+      <DependentUpon>FormClienteVP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFuncionarioCadMotorista.resx">
+      <DependentUpon>FormFuncionarioCadMotorista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoginCliente.resx">
+      <DependentUpon>FormLoginCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoginEmpregado.resx">
+      <DependentUpon>FormLoginEmpregado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPaginaInicial.pt-BR.resx">
+      <DependentUpon>FormPaginaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPaginaInicial.resx">
+      <DependentUpon>FormPaginaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPgInicialCliente.resx">
+      <DependentUpon>FormPgInicialCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPgInicialEmpregado.resx">
+      <DependentUpon>FormPgInicialEmpregado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVeiculoVL.resx">
+      <DependentUpon>FormVeiculoVL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GestaodeFrota.BLL\GestaodeFrota.BLL.csproj">
+      <Project>{7bed9824-99f5-4f3c-b07e-dcf824f74c97}</Project>
+      <Name>GestaodeFrota.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GestaodeFrota.DTO\GestaodeFrota.DTO.csproj">
+      <Project>{04702108-3d4f-4230-b350-bbf07e070432}</Project>
+      <Name>GestaodeFrota.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
